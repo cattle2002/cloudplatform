@@ -1,0 +1,36 @@
+{
+    "Server":{
+        "Address":"0.0.0.0:8833",
+        "KeyFile":"",
+        "CertFile":"",
+        "EnableTls":false
+    },
+    "Store":{
+        "Address":"",
+        "AccessID":"",
+        "AccessKey":"",
+        "EnableTls":false
+    },
+    "Mysql":{
+        "Address":"127.0.0.1:3306",
+        "Scheme":"charset=utf8mb4&parseTime=True&loc=Local",
+        "User":"root",
+        "Password":"root",
+        "Name": "nwyl",
+        "MaxPoolSize":20,
+        "MaxIdleSize":10
+    },
+    "Log":{
+        "File":"logs/cloud.log",
+        "Level":"debug",
+        "MaxAge":30,
+        "MaxSize":10,
+        "MaxBackup":5
+    },
+    "Suanli":{
+        "Address":"0.0.0.0:8081/api/v1/ws",
+        "EnableTls":false,
+        "DialTimeout":30,
+        "HearthIntervalSec":900
+    }
+}

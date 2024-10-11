@@ -1,0 +1,5 @@
+# Ignore logs folder
+logs/
+
+# Ignore IntelliJ IDEA configuration files and folders
+.idea/
